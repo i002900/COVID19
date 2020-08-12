@@ -11,11 +11,11 @@ url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_cov
 cases_df = pd.read_csv(url , index_col = 0)
 # The Columns are organised as follows:
 #
-#0. Province/State
-#1. Country/Region
-#2. Latitude
-#3. Longitude
-#4. column 4 onwards: Daily cumulative reported cases (by date)
+#Index Column: Province/State
+#0. Country/Region
+#1. Latitude
+#2. Longitude
+#3. column 3 onwards: Daily cumulative reported cases (by date)
 
 # Determine First infection date for each entry and store it as a List
 num_cols = len(cases_df.columns) + 1
