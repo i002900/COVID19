@@ -53,6 +53,7 @@ LongMean = Globalcases_df.Long.mean()
 features = []
 for idx, value in Globalcases_df.iterrows():
     times = str(value.Date)
+    times = times[:10]        #YYYY-MM-DD
     feature = {
             'type': 'Feature',
             'geometry': {
