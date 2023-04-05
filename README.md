@@ -1,5 +1,6 @@
 # COVID19
-My work on Covid19 Datasets using Python.
+Visualization of the Global Spread of Covid19 using Python.
+
 The Covid-19 datasets have been sourced from the John Hopkins institute. These visualisations are written in Python and various libraries like Pandas and folium.
 The Folium graph is an interactive time-stamped visualisation. The visualisation is generated and saved as an html file. This is also shown on your browser in a new window. Note that each time you run the Python program it would read the latest avaiable data published by John Hopkins and create a new visualisation.
 
